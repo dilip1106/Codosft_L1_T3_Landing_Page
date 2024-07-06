@@ -357,7 +357,7 @@ header.sticky {
   margin-top: 5rem;
 }
 
-.blog-img {
+.block-img {
   overflow: hidden;
 }
 
@@ -368,7 +368,7 @@ header.sticky {
   cursor: pointer;
 }
 
-.blog-img img:hover {
+.block-img img:hover {
   transform: scale(1.1);
 }
 
