@@ -529,9 +529,45 @@ header.sticky {
     gap: 2rem;
     height: auto;
   }
+  .home-img {
+    overflow: hidden;
+  }
+  .home-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
   .home-text {
     padding-top: 60px;
     margin-bottom: 40px;
+  }
+  .new-products-content {
+    margin: auto;
+    padding: 20px;
+  }
+
+  .trending-content {
+    margin: auto;
+    padding: 20px;
+  }
+  .top {
+    position: fixed;
+    bottom: 1rem;
+    right: 0.5rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .top i {
+    font-size: 20px;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+    padding: 12px;
+    border-radius: 2rem;
+  }
+  
+  .top.up {
+    opacity: 1;
   }
 }
 
@@ -539,7 +575,7 @@ header.sticky {
   #menu-icon {
     display: block;
   }
-  .navlist{
+  .navlist {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -565,7 +601,7 @@ header.sticky {
   .navlist a:hover {
     border-bottom: none;
   }
-  .navlist.open{
+  .navlist.open {
     left: 0;
   }
 }
